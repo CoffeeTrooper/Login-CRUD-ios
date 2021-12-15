@@ -3,25 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60491130961561D9AFD7753D /* Pods_DAMII_CL3_T6FT_Huamani.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3535C3EFC79DE950AF95788B /* Pods_DAMII_CL3_T6FT_Huamani.framework */; };
+		C3E7F56C27597B6F006AAFB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3E7F56B27597B6F006AAFB1 /* GoogleService-Info.plist */; };
+		C3E7F56E2759A73E006AAFB1 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E7F56D2759A73E006AAFB1 /* SafariServices.framework */; };
 		C3FFD6DB275538160003F1B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FFD6DA275538160003F1B1 /* AppDelegate.swift */; };
-		C3FFD6DD275538160003F1B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FFD6DC275538160003F1B1 /* ViewController.swift */; };
+		C3FFD6DD275538160003F1B1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FFD6DC275538160003F1B1 /* LoginViewController.swift */; };
 		C3FFD6E0275538160003F1B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FFD6DE275538160003F1B1 /* Main.storyboard */; };
 		C3FFD6E22755383D0003F1B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FFD6E12755383D0003F1B1 /* Assets.xcassets */; };
 		C3FFD6E52755383D0003F1B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FFD6E32755383D0003F1B1 /* LaunchScreen.storyboard */; };
+		C3FFD6EF275580BF0003F1B1 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FFD6ED275580BF0003F1B1 /* RegistroViewController.swift */; };
+		C3FFD6F0275580BF0003F1B1 /* RegistroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3FFD6EE275580BF0003F1B1 /* RegistroViewController.xib */; };
+		C3FFD6F4275584150003F1B1 /* CrudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FFD6F2275584150003F1B1 /* CrudViewController.swift */; };
+		C3FFD6F5275584150003F1B1 /* CrudViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3FFD6F3275584150003F1B1 /* CrudViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3535C3EFC79DE950AF95788B /* Pods_DAMII_CL3_T6FT_Huamani.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DAMII_CL3_T6FT_Huamani.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEF50433BD8F003D706ACB3 /* Pods-DAMII_CL3_T6FT_Huamani.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAMII_CL3_T6FT_Huamani.release.xcconfig"; path = "Target Support Files/Pods-DAMII_CL3_T6FT_Huamani/Pods-DAMII_CL3_T6FT_Huamani.release.xcconfig"; sourceTree = "<group>"; };
+		C3E7F56B27597B6F006AAFB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C3E7F56D2759A73E006AAFB1 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		C3FFD6D7275538150003F1B1 /* DAMII_CL3_T6FT_Huamani.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAMII_CL3_T6FT_Huamani.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FFD6DA275538160003F1B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3FFD6DC275538160003F1B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3FFD6DC275538160003F1B1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C3FFD6DF275538160003F1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3FFD6E12755383D0003F1B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3FFD6E42755383D0003F1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3FFD6E62755383D0003F1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3FFD6ED275580BF0003F1B1 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		C3FFD6EE275580BF0003F1B1 /* RegistroViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistroViewController.xib; sourceTree = "<group>"; };
+		C3FFD6F2275584150003F1B1 /* CrudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrudViewController.swift; sourceTree = "<group>"; };
+		C3FFD6F3275584150003F1B1 /* CrudViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CrudViewController.xib; sourceTree = "<group>"; };
+		DAD40896A1EFFE19F87C0D7C /* Pods-DAMII_CL3_T6FT_Huamani.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAMII_CL3_T6FT_Huamani.debug.xcconfig"; path = "Target Support Files/Pods-DAMII_CL3_T6FT_Huamani/Pods-DAMII_CL3_T6FT_Huamani.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E7F56E2759A73E006AAFB1 /* SafariServices.framework in Frameworks */,
+				60491130961561D9AFD7753D /* Pods_DAMII_CL3_T6FT_Huamani.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53308E98A7955E821DE180B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAD40896A1EFFE19F87C0D7C /* Pods-DAMII_CL3_T6FT_Huamani.debug.xcconfig */,
+				7CEF50433BD8F003D706ACB3 /* Pods-DAMII_CL3_T6FT_Huamani.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7413BA49FDC3F6C92662FA02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3E7F56D2759A73E006AAFB1 /* SafariServices.framework */,
+				3535C3EFC79DE950AF95788B /* Pods_DAMII_CL3_T6FT_Huamani.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C3FFD6CE275538150003F1B1 = {
 			isa = PBXGroup;
 			children = (
 				C3FFD6D9275538150003F1B1 /* DAMII_CL3_T6FT_Huamani */,
 				C3FFD6D8275538150003F1B1 /* Products */,
+				53308E98A7955E821DE180B2 /* Pods */,
+				7413BA49FDC3F6C92662FA02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,35 @@
 		C3FFD6D9275538150003F1B1 /* DAMII_CL3_T6FT_Huamani */ = {
 			isa = PBXGroup;
 			children = (
+				C3FFD6F1275580D40003F1B1 /* Crud */,
+				C3FFD6EC2755806C0003F1B1 /* Registro */,
 				C3FFD6DA275538160003F1B1 /* AppDelegate.swift */,
-				C3FFD6DC275538160003F1B1 /* ViewController.swift */,
+				C3FFD6DC275538160003F1B1 /* LoginViewController.swift */,
 				C3FFD6DE275538160003F1B1 /* Main.storyboard */,
 				C3FFD6E12755383D0003F1B1 /* Assets.xcassets */,
 				C3FFD6E32755383D0003F1B1 /* LaunchScreen.storyboard */,
+				C3E7F56B27597B6F006AAFB1 /* GoogleService-Info.plist */,
 				C3FFD6E62755383D0003F1B1 /* Info.plist */,
 			);
 			path = DAMII_CL3_T6FT_Huamani;
+			sourceTree = "<group>";
+		};
+		C3FFD6EC2755806C0003F1B1 /* Registro */ = {
+			isa = PBXGroup;
+			children = (
+				C3FFD6ED275580BF0003F1B1 /* RegistroViewController.swift */,
+				C3FFD6EE275580BF0003F1B1 /* RegistroViewController.xib */,
+			);
+			path = Registro;
+			sourceTree = "<group>";
+		};
+		C3FFD6F1275580D40003F1B1 /* Crud */ = {
+			isa = PBXGroup;
+			children = (
+				C3FFD6F2275584150003F1B1 /* CrudViewController.swift */,
+				C3FFD6F3275584150003F1B1 /* CrudViewController.xib */,
+			);
+			path = Crud;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3FFD6E92755383D0003F1B1 /* Build configuration list for PBXNativeTarget "DAMII_CL3_T6FT_Huamani" */;
 			buildPhases = (
+				A374050C9A6405DCF11AF2BD /* [CP] Check Pods Manifest.lock */,
 				C3FFD6D3275538150003F1B1 /* Sources */,
 				C3FFD6D4275538150003F1B1 /* Frameworks */,
 				C3FFD6D5275538150003F1B1 /* Resources */,
+				EA81165983EBD292A20A28A8 /* [CP] Embed Pods Frameworks */,
+				4E1A4D01E0DEEDBE23EF2B79 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,19 +185,83 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3FFD6E52755383D0003F1B1 /* LaunchScreen.storyboard in Resources */,
+				C3FFD6F5275584150003F1B1 /* CrudViewController.xib in Resources */,
+				C3FFD6F0275580BF0003F1B1 /* RegistroViewController.xib in Resources */,
 				C3FFD6E22755383D0003F1B1 /* Assets.xcassets in Resources */,
 				C3FFD6E0275538160003F1B1 /* Main.storyboard in Resources */,
+				C3E7F56C27597B6F006AAFB1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E1A4D01E0DEEDBE23EF2B79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DAMII_CL3_T6FT_Huamani/Pods-DAMII_CL3_T6FT_Huamani-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DAMII_CL3_T6FT_Huamani/Pods-DAMII_CL3_T6FT_Huamani-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DAMII_CL3_T6FT_Huamani/Pods-DAMII_CL3_T6FT_Huamani-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A374050C9A6405DCF11AF2BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DAMII_CL3_T6FT_Huamani-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA81165983EBD292A20A28A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DAMII_CL3_T6FT_Huamani/Pods-DAMII_CL3_T6FT_Huamani-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DAMII_CL3_T6FT_Huamani/Pods-DAMII_CL3_T6FT_Huamani-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DAMII_CL3_T6FT_Huamani/Pods-DAMII_CL3_T6FT_Huamani-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C3FFD6D3275538150003F1B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3FFD6DD275538160003F1B1 /* ViewController.swift in Sources */,
+				C3FFD6F4275584150003F1B1 /* CrudViewController.swift in Sources */,
+				C3FFD6DD275538160003F1B1 /* LoginViewController.swift in Sources */,
+				C3FFD6EF275580BF0003F1B1 /* RegistroViewController.swift in Sources */,
 				C3FFD6DB275538160003F1B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +406,7 @@
 		};
 		C3FFD6EA2755383D0003F1B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD40896A1EFFE19F87C0D7C /* Pods-DAMII_CL3_T6FT_Huamani.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +424,7 @@
 		};
 		C3FFD6EB2755383D0003F1B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CEF50433BD8F003D706ACB3 /* Pods-DAMII_CL3_T6FT_Huamani.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
