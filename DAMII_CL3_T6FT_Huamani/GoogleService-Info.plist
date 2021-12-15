@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>885495951492-g2f41bcl51c8e6r7qfg17j4c2r37olt4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.885495951492-g2f41bcl51c8e6r7qfg17j4c2r37olt4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyArHxGxWbyS2j38dhaAFHk3X0gYTv3A6zQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>885495951492</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>sofi.DAMII-CL3-T6FT-Huamani</string>
+	<key>PROJECT_ID</key>
+	<string>cl3-damii-firebase</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cl3-damii-firebase.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:885495951492:ios:4e2b9b4af158bf329bd2d1</string>
+</dict>
+</plist>
